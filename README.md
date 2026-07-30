@@ -34,5 +34,9 @@ Il sito presenta attualmente **5 applicazioni Android** principali:
 -   `style.css`: Contiene le definizioni dei temi e gli stili di layout.
 -   `images/`: Directory contenente icone, screenshot e risorse grafiche.
 
+## 🤖 Nota sullo Sviluppo
+
+Questo progetto è stato realizzato con l'ausilio di strumenti di **Intelligenza Artificiale** per la generazione del codice e delle icone. L'obiettivo è quello di esplorare e sfruttare le potenzialità delle moderne tecnologie gratuite per creare prodotti software di alta qualità, mantenendo al contempo la massima trasparenza sul processo creativo.
+
 ---
 *Ultimo aggiornamento: Luglio 2026*
