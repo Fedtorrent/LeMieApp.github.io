@@ -24,10 +24,10 @@ Il sito presenta attualmente **5 applicazioni Android** principali:
 
 Le applicazioni in questo portfolio sono fornite come file APK per l'installazione manuale su dispositivi Android. Segui questi semplici passaggi per l'installazione:
 
-0.  **Trasferimento al telefono**: Se scarichi l'APK su un PC, trasferiscilo al tuo smartphone per poterlo installare. Puoi usare WhatsApp Web, Telegram, l'invio tramite email o un cavo USB.
 1.  **Scarica l'APK**: Clicca sul pulsante "Download APK" nella scheda dell'applicazione che desideri provare.
-2.  **Abilita Origini Sconosciute**: Android protegge il tuo dispositivo bloccando le app da fonti diverse dal Play Store. Se è la prima volta, il sistema ti chiederà di autorizzare l'installazione. Vai in **Impostazioni > App > Accesso speciale > Installa app sconosciute** e abilita il permesso per il tuo browser o file manager.
-3.  **Conferma l'Installazione**: Apri il file scaricato (solitamente tramite la notifica di download o un file manager) e premi "Installa" quando richiesto.
+2.  **Trasferimento al telefono**: Se scarichi l'APK su un PC, trasferiscilo al tuo smartphone per poterlo installare. Puoi usare WhatsApp Web, Telegram, l'invio tramite email o un cavo USB.
+3.  **Abilita Origini Sconosciute**: Android protegge il tuo dispositivo bloccando le app da fonti diverse dal Play Store. Se è la prima volta, il sistema ti chiederà di autorizzare l'installazione. Vai in **Impostazioni > App > Accesso speciale > Installa app sconosciute** e abilita il permesso per il tuo browser o file manager.
+4.  **Conferma l'Installazione**: Apri il file scaricato (solitamente tramite la notifica di download o un file manager) e premi "Installa" quando richiesto.
 
 *Nota: Tutte le applicazioni in questo sito sono sicure e il codice sorgente è disponibile per la revisione su GitHub.*
 
