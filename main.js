@@ -13,7 +13,7 @@ const apps = [
             "- Calcolatori e link utili.<br>" +
             "<br>" +
             "E molto altro ancora!",
-        github: "",
+        github: "https://github.com/Fedtorrent/AssetHub",
         apk: "apk/AssetHub_V.1.2.apk",
         screenshots: [
             "images/AH_0_Icona.png",
