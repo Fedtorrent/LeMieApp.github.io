@@ -1,10 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
-    <title>Le mie App Android</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Sito</title>
+
+    <!-- Roboto Font and Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Material Web Components Import Map -->
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+
+    <!-- Import components -->
+    <script type="module">
+      import '@material/web/all.js';
+      import '@material/web/dialog/dialog.js';
+      import '@material/web/iconbutton/icon-button.js';
+      import '@material/web/icon/icon.js';
+      // I componenti Card sono attualmente in 'labs' e non sono inclusi in all.js
+      import '@material/web/labs/card/elevated-card.js';
+      import '@material/web/labs/card/filled-card.js';
+      import '@material/web/labs/card/outlined-card.js';
+    </script>
+
+    <!-- External JS -->
+    <script type="module" src="main.js"></script>
 </head>
 <body>
-    <h1>Benvenuto</h1>
-    <p>Sito personale delle mie applicazioni Android open source.</p>
+    <header class="top-app-bar">
+        <div class="header-content">
+            <span class="headline-small">Il Mio Portfolio App</span>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1 class="display-medium">Sviluppatore Android Open Source</h1>
+                <p class="body-large">
+                    Benvenuti! Sono un appassionato sviluppatore Android focalizzato sulla creazione di soluzioni moderne,
+                    performanti e accessibili. Amo contribuire al mondo open source e sperimentare con le ultime tecnologie.
+                </p>
+                <div class="hero-actions">
+                    <a href="#app-gallery-section" style="text-decoration: none;">
+                        <md-filled-button>
+                            <md-icon slot="icon">explore</md-icon>
+                            Esplora le mie App
+                        </md-filled-button>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile.png" alt="Immagine di Profilo">
+            </div>
+        </section>
+
+        <section id="app-gallery-section">
+            <h2 class="display-small" style="margin-bottom: 2rem; text-align: center;">App Gallery</h2>
+            <section id="app-gallery">
+                <!-- Le schede delle app verranno generate qui dinamicamente -->
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="body-medium">© 2026 Il Mio Portfolio App</p>
+            <div class="footer-links">
+                <a href="https://github.com/tuo-username" target="_blank" style="text-decoration: none;">
+                    <md-text-button>
+                        <md-icon slot="icon">code</md-icon>
+                        GitHub
+                    </md-text-button>
+                </a>
+                <a href="mailto:tuo@email.com" style="text-decoration: none;">
+                    <md-text-button>
+                        <md-icon slot="icon">mail</md-icon>
+                        Email
+                    </md-text-button>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Dialog -->
+    <md-dialog id="lightbox-dialog">
+        <div slot="content" class="lightbox-content">
+            <md-icon-button id="lightbox-close" class="close-button">
+                <md-icon>close</md-icon>
+            </md-icon-button>
+            <img id="lightbox-image" src="" alt="Screenshot">
+            <div class="lightbox-nav">
+                <md-icon-button id="lightbox-prev">
+                    <md-icon>arrow_back</md-icon>
+                </md-icon-button>
+                <md-icon-button id="lightbox-next">
+                    <md-icon>arrow_forward</md-icon>
+                </md-icon-button>
+            </div>
+        </div>
+    </md-dialog>
 </body>
 </html>
