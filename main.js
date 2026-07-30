@@ -14,7 +14,7 @@ const apps = [
             "<br>" +
             "E molto altro ancora!",
         github: "",
-        apk: "apk/assethub.apk",
+        apk: "apk/AssetHub_V.1.2.apk",
         screenshots: [
             "images/AH_0_Icona.png",
             "images/AH_1_Intro.jpeg",
