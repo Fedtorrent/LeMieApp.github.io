@@ -145,7 +145,7 @@ function renderAppGallery() {
         // Determina se mostrare il pulsante GitHub
         const githubButtonHtml = (app.github && app.github !== "" && app.github !== "#")
             ? `
-                <a href="${app.github}" target="_blank" style="text-decoration: none;">
+                <a href="${app.github}" target="_blank" class="action-link">
                     <md-outlined-button>
                         <md-icon slot="icon">code</md-icon>
                         GitHub
@@ -163,7 +163,7 @@ function renderAppGallery() {
                 </div>
                 <div class="app-card-actions">
                     ${githubButtonHtml}
-                    <a href="${app.apk}" style="text-decoration: none;">
+                    <a href="${app.apk}" download="${app.name}.apk" class="action-link">
                         <md-filled-button>
                             <md-icon slot="icon">download</md-icon>
                             Scarica APK

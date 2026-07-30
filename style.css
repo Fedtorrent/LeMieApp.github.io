@@ -222,6 +222,11 @@ body {
     justify-content: flex-start;
 }
 
+.action-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
 /* Desktop: Alternated Horizontal Layout */
 @media (min-width: 900px) {
     .app-card {
