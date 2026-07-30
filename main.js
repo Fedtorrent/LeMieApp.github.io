@@ -13,8 +13,8 @@ const apps = [
             "- Calcolatori e link utili.<br>" +
             "<br>" +
             "E molto altro ancora!",
-        github: "***",
-        apk: "#",
+        github: "",
+        apk: "apk/assethub.apk",
         screenshots: [
             "images/AH_0_Icona.png",
             "images/AH_1_Intro.jpeg",
@@ -39,7 +39,7 @@ const apps = [
             "- Cataloga e ricerca velocemente i tuoi esami.<br>" +
             "<br>" +
             "E molto altro ancora!",
-        github: "***",
+        github: "",
         apk: "#",
         screenshots: [
             "images/LMS_0_Icona.png",
@@ -62,7 +62,7 @@ const apps = [
             "- Modalità scura o chiara<br>" +
             "- Statistiche di magazzino.<br>" +
             "- Cataloga e ricerca velocemente i tuoi prodotti.<br>",
-        github: "https://github.com/example/workoutbuddy",
+        github: "",
         apk: "#",
         screenshots: [
             "images/MAG_0.png",
@@ -90,7 +90,7 @@ const apps = [
             "- Calcolo del rimborso corretto (applica la franchigia di 129,11€ e rimborso Irpef del 19% sulla rimanenza)<br>" +
             "- Scarica e stampa un Report in pdf per ogni Codice Fiscale da presentare al commercialista<br>" +
             "- Archivio scontrini/fatture suddiviso per anno",
-        github: "https://github.com/example/workoutbuddy",
+        github: "",
         apk: "#",
         screenshots: [
             "images/730_0.png",
@@ -108,7 +108,7 @@ const apps = [
             "- Tieni traccia di quello che vuoi<br>" +
             "- Archivia o elimina i Contatori che non usi più<br>" +
             "- Fai il backup dei Contatori<br>",
-        github: "https://github.com/example/workoutbuddy",
+        github: "",
         apk: "#",
         screenshots: [
             "images/CONT_0.png",
@@ -142,6 +142,17 @@ function renderAppGallery() {
         const card = document.createElement('md-elevated-card');
         card.className = 'app-card';
 
+        // Determina se mostrare il pulsante GitHub
+        const githubButtonHtml = (app.github && app.github !== "" && app.github !== "#")
+            ? `
+                <a href="${app.github}" target="_blank" style="text-decoration: none;">
+                    <md-outlined-button>
+                        <md-icon slot="icon">code</md-icon>
+                        GitHub
+                    </md-outlined-button>
+                </a>`
+            : "";
+
         // L'immagine ora è cliccabile per aprire il lightbox
         card.innerHTML = `
             <img src="${app.screenshots[0]}" alt="Screenshot di ${app.name}" class="clickable-image" style="cursor: pointer;">
@@ -151,12 +162,7 @@ function renderAppGallery() {
                     <p class="body-medium">${app.description}</p>
                 </div>
                 <div class="app-card-actions">
-                    <a href="${app.github}" target="_blank" style="text-decoration: none;">
-                        <md-outlined-button>
-                            <md-icon slot="icon">code</md-icon>
-                            GitHub
-                        </md-outlined-button>
-                    </a>
+                    ${githubButtonHtml}
                     <a href="${app.apk}" style="text-decoration: none;">
                         <md-filled-button>
                             <md-icon slot="icon">download</md-icon>
