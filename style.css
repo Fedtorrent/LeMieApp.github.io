@@ -163,6 +163,26 @@ body {
     gap: 1rem;
 }
 
+/* Info Box */
+.info-box {
+    background-color: var(--md-sys-color-surface-container);
+    color: var(--md-sys-color-on-surface);
+    padding: 1.25rem 1.5rem;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    border: 1px solid var(--md-sys-color-outline);
+}
+
+.info-box md-icon {
+    color: var(--md-sys-color-primary);
+    --md-icon-size: 28px;
+    flex-shrink: 0;
+}
+
 /* App Gallery (Alternated Layout) */
 #app-gallery-section {
     width: 100%;
