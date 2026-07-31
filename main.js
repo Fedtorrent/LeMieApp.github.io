@@ -39,8 +39,8 @@ const apps = [
             "- Cataloga e ricerca velocemente i tuoi esami.<br>" +
             "<br>" +
             "E molto altro ancora!",
-        //github: "",
-        //apk: "",
+        github: "",
+        apk: "#",
         screenshots: [
             "images/LMS_0_Icona.png",
             "images/LMS_1_Riepil.jpeg",
@@ -62,8 +62,8 @@ const apps = [
             "- Modalità scura o chiara<br>" +
             "- Statistiche di magazzino.<br>" +
             "- Cataloga e ricerca velocemente i tuoi prodotti.<br>",
-        //github: "",
-        //apk: "",
+        github: "",
+        apk: "#",
         screenshots: [
             "images/MAG_0.png",
             "images/MAG_1.jpeg",
@@ -90,8 +90,8 @@ const apps = [
             "- Calcolo del rimborso corretto (applica la franchigia di 129,11€ e rimborso Irpef del 19% sulla rimanenza)<br>" +
             "- Scarica e stampa un Report in pdf per ogni Codice Fiscale da presentare al commercialista<br>" +
             "- Archivio scontrini/fatture suddiviso per anno",
-        //github: "",
-        //apk: "",
+        github: "https://github.com/Fedtorrent/Spese730",
+        apk: "#",
         screenshots: [
             "images/730_0.png",
             "images/730_1.jpeg",
@@ -108,8 +108,8 @@ const apps = [
             "- Tieni traccia di quello che vuoi<br>" +
             "- Archivia o elimina i Contatori che non usi più<br>" +
             "- Fai il backup dei Contatori<br>",
-        //github: "",
-        //apk: "",
+        github: "",
+        apk: "#",
         screenshots: [
             "images/CONT_0.png",
             "images/CONT_1.jpeg",
