@@ -1,4 +1,4 @@
-// Dati delle app aggiornati con array di screenshot
+// Dati delle app aggiornati con array di screenshot 
 const apps = [
     {
         name: "AssetHub",
