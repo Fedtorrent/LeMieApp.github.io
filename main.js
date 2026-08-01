@@ -39,8 +39,8 @@ const apps = [
             "- Cataloga e ricerca velocemente i tuoi esami.<br>" +
             "<br>" +
             "E molto altro ancora!",
-        github: "",
-        apk: "#",
+        github: "https://github.com/Fedtorrent/LaMiaSalute",
+        apk: "apk/LaMiaSalute_V.1.1.apk",
         screenshots: [
             "images/LMS_0_Icona.png",
             "images/LMS_1_Riepil.jpeg",
