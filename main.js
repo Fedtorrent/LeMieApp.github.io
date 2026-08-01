@@ -40,7 +40,7 @@ const apps = [
             "<br>" +
             "E molto altro ancora!",
         github: "https://github.com/Fedtorrent/LaMiaSalute",
-        apk: "apk/LaMiaSalute_V.1.0.apk",
+        apk: "apk/La_Mia_Salute_V.1.0.apk",
         screenshots: [
             "images/LMS_0_Icona.png",
             "images/LMS_1_Riepil.jpeg",
