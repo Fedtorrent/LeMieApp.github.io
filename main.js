@@ -14,7 +14,7 @@ const apps = [
             "<br>" +
             "E molto altro ancora!",
         github: "https://github.com/Fedtorrent/AssetHub",
-        apk: "apk/AssetHub_V.1.2.apk",
+        apk: "apk/AssetHub_V.1.3.apk",
         screenshots: [
             "images/AH_0_Icona.png",
             "images/AH_1_Intro.jpeg",
