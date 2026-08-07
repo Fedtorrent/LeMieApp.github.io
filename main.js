@@ -14,7 +14,7 @@ const apps = [
             "<br>" +
             "E molto altro ancora!",
         github: "https://github.com/Fedtorrent/AssetHub",
-        apk: "apk/AssetHub_V.1.3.apk",
+        apk: "apk/AssetHub.apk",
         screenshots: [
             "images/AH_0_Icona.png",
             "images/AH_1_Intro.jpeg",
@@ -40,7 +40,7 @@ const apps = [
             "<br>" +
             "E molto altro ancora!",
         github: "https://github.com/Fedtorrent/LaMiaSalute",
-        apk: "apk/La_Mia_Salute_V.1.0.apk",
+        apk: "apk/La_Mia_Salute.apk",
         screenshots: [
             "images/LMS_0_Icona.png",
             "images/LMS_1_Riepil.jpeg",
@@ -91,7 +91,7 @@ const apps = [
             "- Scarica e stampa un Report in pdf per ogni Codice Fiscale da presentare al commercialista<br>" +
             "- Archivio scontrini/fatture suddiviso per anno",
         github: "https://github.com/Fedtorrent/Spese730",
-        apk: "apk/Spese_per_il_730_V.1.1.apk",
+        apk: "apk/Spese_per_il_730.apk",
         screenshots: [
             "images/730_0.png",
             "images/730_1.jpeg",
@@ -109,7 +109,7 @@ const apps = [
             "- Archivia o elimina i Contatori che non usi più<br>" +
             "- Fai il backup dei Contatori<br>",
         github: "https://github.com/Fedtorrent/IMieiContatori",
-        apk: "apk/IMieiContatori.apk",
+        apk: "apk/I_Miei_Contatori.apk",
         screenshots: [
             "images/CONT_0.png",
             "images/CONT_1.jpeg",
