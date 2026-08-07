@@ -108,8 +108,8 @@ const apps = [
             "- Tieni traccia di quello che vuoi<br>" +
             "- Archivia o elimina i Contatori che non usi più<br>" +
             "- Fai il backup dei Contatori<br>",
-        github: "",
-        apk: "#",
+        github: "https://github.com/Fedtorrent/IMieiContatori",
+        apk: "apk/IMieiContatori.apk",
         screenshots: [
             "images/CONT_0.png",
             "images/CONT_1.jpeg",
