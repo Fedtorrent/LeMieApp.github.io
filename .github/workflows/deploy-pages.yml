@@ -13,6 +13,9 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,20 +25,8 @@ jobs:
 
       - name: Build your site
         run: |
-          # Create the dist directory with your built content
-          # Example options below - uncomment the one that matches your project:
-          
-          # For a static site (just copy files):
           mkdir -p dist
           cp -r *.html *.css *.js dist/ 2>/dev/null || true
-          
-          # OR for Node.js/npm projects:
-          # npm install
-          # npm run build
-          
-          # OR for Python/Jekyll:
-          # bundle install
-          # bundle exec jekyll build -d dist
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v4
@@ -43,4 +34,5 @@ jobs:
           path: './dist'
 
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
