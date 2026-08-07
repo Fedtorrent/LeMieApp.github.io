@@ -22,16 +22,25 @@ jobs:
 
       - name: Build your site
         run: |
-          # Add your build commands here
-          # For example, if using Jekyll:
+          # Create the dist directory with your built content
+          # Example options below - uncomment the one that matches your project:
+          
+          # For a static site (just copy files):
+          mkdir -p dist
+          cp -r *.html *.css *.js dist/ 2>/dev/null || true
+          
+          # OR for Node.js/npm projects:
+          # npm install
+          # npm run build
+          
+          # OR for Python/Jekyll:
           # bundle install
-          # bundle exec jekyll build
-          # Or if using Hugo, Node.js, etc.
+          # bundle exec jekyll build -d dist
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v4
         with:
-          path: './dist'  # Change to your actual build output directory
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
