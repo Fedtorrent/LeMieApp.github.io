@@ -62,8 +62,8 @@ const apps = [
             "- Modalità scura o chiara<br>" +
             "- Statistiche di magazzino.<br>" +
             "- Cataloga e ricerca velocemente i tuoi prodotti.<br>",
-        github: "",
-        apk: "#",
+        github: "https://github.com/Fedtorrent/IMieiMagazzini",
+        apk: "apk/I_Miei_Magazzini.apk",
         screenshots: [
             "images/MAG_0.png",
             "images/MAG_1.jpeg",
