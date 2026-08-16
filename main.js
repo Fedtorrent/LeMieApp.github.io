@@ -119,6 +119,26 @@ const apps = [
             "images/CONT_5.jpeg"
         ]
     }
+     {
+            name: "La Mia Spesa",
+            description: "La Mia Spesa è un'applicazione mobile moderna (PWA) progettata per semplificare<br>" +
+                "la gestione della spesa quotidiana, sia per uso personale che collaborativo<br>" +
+                "Grazie alla tecnologia cloud in tempo reale, ogni membro della famiglia può aggiungere<br>" +
+                "spuntare o modificare prodotti contemporaneamente,<br>" +
+                "vedendo i cambiamenti degli altri istantaneamente sul proprio schermo.<br>" +
+                "<br>",
+            github: "https://github.com/Fedtorrent/LeMieListeDellaSpesa",
+            apk: "apk/La_Mia_Spesa.apk",
+            screenshots: [
+                "images/LMLS.png",
+                "images/LMLS_00.jpeg",
+                "images/LMLS_01.jpeg",
+                "images/LMLS_02.jpeg",
+                "images/LMLS_03.jpeg",
+                "images/LMLS_04.jpeg",
+                "images/LMLS_05.jpeg"
+            ]
+        },
 ];
 
 // Stato del lightbox
