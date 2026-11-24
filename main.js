@@ -139,6 +139,18 @@ const apps = [
             "images/LMLS_05.jpeg"
         ]
     },
+    {
+        name: "Le Mie Ricette",
+        description: "Le mie Ricette è un'applicazione Android nativa sviluppata in Kotlin e Jetpack Compose<br>" +
+            "progettata per la gestione personalizzata delle ricette da cucina,<br>" +
+            "l'importazione automatica da siti web e social media (Reel/Video),<br>" +
+            "il backup dei dati e la sincronizzazione cloud.",
+        github: "https://github.com/Fedtorrent/LeMieRicette",
+        apk: "apk/LeMieRicette.apk",
+        screenshots: [
+            "images/LMR_1.png"
+        ]
+    },
 ];
 
 // Stato del lightbox

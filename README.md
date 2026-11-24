@@ -4,13 +4,15 @@ Benvenuti nel mio sito portfolio personale, una vetrina per le mie applicazioni 
 
 ## 🚀 Informazioni sul Progetto
 
-Il sito presenta attualmente **5 applicazioni Android** principali:
+Il sito presenta attualmente **7 applicazioni Android** principali:
 
 1.  **AssetHub**: Monitoraggio del patrimonio e degli investimenti con focus sulla privacy (dati locali).
 2.  **La Mia Salute**: Gestione della salute familiare, farmaci, misurazioni e notifiche.
 3.  **I Miei Magazzini**: Tracciamento delle scorte con database su Google Drive e supporto multiutente.
 4.  **Spese 730**: Registrazione di scontrini e fatture per il calcolo automatico dei rimborsi fiscali.
 5.  **I Miei Contatori**: Un'app semplice per tenere traccia di utilizzi ricorrenti o scadenze personalizzate.
+6.  **La Mia Spesa**: Applicazione PWA/mobile per la gestione condivisa della spesa in tempo reale.
+7.  **Le Mie Ricette**: Gestione delle ricette, importazione automatica da web/social e sincronizzazione cloud.
 
 ## ✨ Funzionalità del Sito
 
